@@ -1,0 +1,149 @@
+.profilImg {
+    width: 156px;
+    height: 156px;
+    border-radius: 16px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profilName {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #4E5150;
+}
+
+.profilPlace {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
+.profilInfoContent {
+    display: flex;
+    gap: 24px;
+}
+
+.profil {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 64px;
+    padding-top: 60px;
+}
+
+.profilInfo {
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #4E5150;
+}
+
+span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;    
+    text-align: center;
+    color: #BDBDBD;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-template-areas:
+      "a b b"
+      "c c f"
+      "d e f";
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+#imgOne {
+    width: 100%;
+    max-width: 299px;
+    max-height: 299px;
+    border-radius: 12px;
+    grid-area: a;
+}
+
+#imgTwo {
+    width: 100%;
+    border-radius: 12px;
+    max-width: 629px;
+    max-height: 299px;
+    grid-area: b;
+}
+
+#imgThree {
+    width: 100%;
+    border-radius: 12px;
+    max-width: 627px;
+    max-height: 299px;
+    grid-area: c;
+}
+
+#imgFour {
+    width: 100%;
+    border-radius: 12px;
+    max-width: 297px;
+    max-height: 630px;
+    grid-area: f;
+}
+
+#imgFive {
+    width: 100%;
+    border-radius: 12px;
+    max-width: 299px;
+    max-height: 299px;
+    grid-area: e;
+}
+
+#imgSix {
+    width: 100%;
+    border-radius: 12px;
+    max-width: 299px;
+    max-height: 299px;
+    grid-area: d;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    margin-bottom: 24px;
+    color: #BDBDBD;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 10px;  
+}
+
+.devChallenge {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+a {
+    color: #BDBDBD;
+}
+
+@media screen and (min-width: 300px) and (max-width: 748px) {
+    #content {
+        gap: 15px;
+    }
+}
